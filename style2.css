@@ -1,0 +1,512 @@
+/* Reset de estilos */
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, 'Times New Roman';
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* Header styles */
+header {
+    background-color: #1f1f1f;
+    /*background-color: #2a3eb1;*/
+    padding: 2px;
+}
+.logo-wrapper {
+    display: flex;
+    align-items: center;
+    color: #fff;
+}
+
+.logo-wrapper img {
+    width: 50px; /* Ajuste o tamanho da imagem conforme necessário */
+    margin-right: 10px;
+}
+
+/* Estilos para o título h1 */
+h1 {
+    /* ... Outros estilos ... */
+    text-align: center;
+    margin: 5px auto;
+    padding: 0px;
+    color: #ffffff;
+}
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 0; }
+    100% { opacity: 1; }
+
+}
+
+#hero .hero-content h1 {
+    animation: blink 1s infinite;
+    color: red;
+}
+
+
+/* Estilos para a parte destacada "Poder Mental" */
+.highlight {
+    background-color: yellow;
+    border-radius: 8px; /* Arredonda as bordas */
+    padding: 5px 10px; /* Adiciona um espaçamento interno */
+    color: rgb(0, 0, 0); /* Cor do texto preto */
+    font-size: 25px;
+    font-weight: bold;
+}
+.highlight-avatar {
+    background-color: greenyellow;
+    border-radius: 8px; /* Arredonda as bordas */
+    padding: 5px 10px; /* Adiciona um espaçamento interno */
+    color: rgb(0, 0, 0); /* Cor do texto preto */
+    font-weight: bold;
+}
+.Potencial { 
+    font-size: 25px;
+}
+
+/* Estilos globais */
+body {
+    background-color: #f7f7f7;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 40px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+nav a {
+    color: #fff;
+}
+
+/* Estilos da seção hero */
+#hero {
+    background-image: url('imagens/background.png'); /* Substitua pela sua imagem de fundo */
+    background-size: cover; */
+    /*background-color: #2a3eb1;*/
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    text-align: center;
+    padding: 80px 0;
+}
+#problema-solucao {
+    background-image: url('imagens/background.png'); /* Substitua pela sua imagem de fundo */
+    background-size: cover; */
+    /*background-color: #2a3eb1;*/
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    text-align: center;
+    padding: 80px 0;
+}
+#beneficios {
+    background-image: url('imagens/background.png'); /* Substitua pela sua imagem de fundo */
+    background-size: cover; */
+    /*background-color: #2a3eb1;*/
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    text-align: center;
+    padding: 80px 0;
+}
+#faq {
+    background-image: url('imagens/background.png'); /* Substitua pela sua imagem de fundo */
+    background-size: cover; */
+    /*background-color: #2a3eb1;*/
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    text-align: center;
+    padding: 80px 0;
+}
+#contato {
+    background-image: url('imagens/background.png'); /* Substitua pela sua imagem de fundo */
+    background-size: cover; */
+    /*background-color: #2a3eb1;*/
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    text-align: center;
+    padding: 80px 0;
+}
+#receitas {
+    background-image: url('imagens/background.png'); /* Substitua pela sua imagem de fundo */
+    background-size: cover; */
+    /*background-color: #2a3eb1;*/
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    text-align: center;
+    padding: 80px 0;
+}
+#avaliacao-coment {
+    background-image: url('imagens/background.png'); /* Substitua pela sua imagem de fundo */
+    background-size: cover; */
+    /*background-color: #2a3eb1;*/
+    background-position: center;
+    background-attachment: fixed;
+    color: #fff;
+    text-align: center;
+    padding: 80px 0;
+}
+#myVideo {
+    width: 60%; /* Defina o tamanho para o vídeo em desktop */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+@media screen and (max-width: 768px) {
+    #myVideo {
+        width: 100%; /* Defina o tamanho para o vídeo em dispositivos móveis */
+        height: auto;
+        display: block;
+        margin: 0 auto;
+    }
+}
+
+.hero-content h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero-content p {
+    font-size: 1.2em;
+    margin-bottom: 30px;
+}
+
+/* Estilos do botão */
+.btn {
+    display: inline-block;
+    padding: 20px 60px;
+    background-color: #00c00a;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+    background-color: #00ff0d; /* Mude para a cor desejada no hover */
+    transform: scale(1.1); /* Ajuste o valor para o aumento de tamanho desejado */
+}
+
+/* Estilos das seções */
+section {
+    padding: 50px 0;
+}
+
+section h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+/* Estilos do rodapé */
+footer {
+    background-color: #1a1a1a;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+.footer-font {
+    font-size: 9px;
+    color: white;
+    font-weight: bold;
+}
+
+footer p {
+    font-size: 1.2em;
+}
+
+/* Estilos responsivos */
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 20px;
+    }
+
+    header {
+        padding: 2px;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    .btn {
+        padding: 15px 40px;
+    }
+
+    .hero-content h1 {
+        font-size: 2em;
+    }
+
+    .hero-content p {
+        font-size: 1em;
+    }
+}
+
+#countdown {
+    background-color: #1f1f1f; /* Cor de fundo desejada */
+    color: #fff; /* Cor do texto */
+    text-align: center;
+    padding: 20px;
+    font-size: 24px;
+    border-radius: 5px;
+    margin: 20px auto; /* Centraliza horizontalmente */
+    max-width: 400px; /* Define a largura máxima do contador */
+}
+
+#popup-container {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    background-color: #0053cf;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    display: none;
+}
+
+/* Estilize os itens do menu */
+ul li a {
+    display: block;
+    padding: 10px 20px;
+    color: #ffffff;
+    text-decoration: none;
+    transition: color 0.3s, transform 0.3s;
+}
+
+/* Estilos para a camada de carregamento */
+.loading-layer {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #ffffff; /* Cor de fundo */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 9999; /* Garante que a camada de carregamento fique acima do conteúdo */
+    animation: pulse 1.5s ease-in-out infinite;
+}
+.text-pers { 
+    text-align: center;
+    padding: 20px 0;
+}
+.rating {
+    font-size: 24px; /* Tamanho da estrela */
+}
+
+.star {
+    color: #f5b900; /* Cor da estrela amarela */
+    cursor: pointer;
+}
+
+.star:hover {
+    color: #ffed86; /* Cor da estrela amarela mais clara ao passar o mouse */
+}
+
+/* Adiciona uma caixa de dica (tooltip) com a nota */
+.star::before {
+    content: attr(data-rating);
+    position: absolute;
+    top: -28px;
+    left: 0;
+    opacity: 0;
+    pointer-events: none;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: opacity 0.3s;
+}
+
+.star:hover::before {
+    opacity: 1;
+}
+#contador {
+    font-size: 24px;
+    font-weight: bold;
+    background-color: black;
+    color: yellow;
+    padding: 5px 10px;
+    border-radius: 5px;
+    transition: 0.5s;
+}
+.contato-content {
+    display: flex;
+    align-items: center;
+}
+
+.contato-image {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.contato-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.contato-text {
+    flex: 2;
+}
+/*AVATAR IMAGEM COM TEXTO DE CURIOSIDADE*/
+.voce-sabia {
+    display: flex;
+    align-items: center;
+}
+
+.vocesabia-image {
+    flex: 1;
+    margin-right: 20px;
+}
+
+.vocesabia-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.avatar-texto {
+    flex: 2;
+}
+/* Estilos do botão flutuante do WhatsApp */
+.whatsapp-button {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    border: none;
+    padding: 10px;
+    border-radius: 50%;
+    cursor: pointer;
+    z-index: 999;
+    animation: pulse 1.5s ease-in-out infinite;
+    transition: transform 0.3s;
+}
+.whatsapp-button img {
+    width: 70px;
+    height: 70px;
+}
+.whatsapp-button:hover {
+    transform: scale(1.1);
+    animation: none; /* Para parar a animação de pulsação no hover */
+}
+
+/* Animação de pulsação */
+@keyframes pulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.1);
+    }
+}
+.faq-item {
+    margin-bottom: 20px;
+}
+.faq-question {
+    cursor: pointer;
+    text-align: left;
+}
+.faq-answer {
+    display: none;
+    text-align: left;
+    color: greenyellow;
+}
+.faq-question::before {
+    content: '+';
+    display: inline-block;
+    margin-right: 10px;
+}
+/*pop up coockies*/
+.popup {
+    display: none;
+    position: fixed;
+    left: 50%;
+    bottom: 20px; /* Distância da parte inferior da tela */
+    transform: translateX(-50%);
+    background: url('imagens/background.png') center/cover;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    z-index: 9999; /* Certifique-se de que o pop-up esteja acima dos outros elementos */
+    color: white; /* Altera a cor do texto para branco */
+}
+
+.popup p {
+    margin: 0;
+    padding: 0;
+    font-weight: bold; /* Torna o texto em negrito */
+}
+
+.popup button {
+    margin-top: 5px;
+    background-color: green; /* Altere para a cor verde desejada */
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#problema-solucao {
+    padding: 80px 0;
+    background-color: #f9f9f9;
+}
+
+.problema,
+.solucao {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+.problem-section {
+    text-align: left;
+}
+
+.avaliacoes {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.avaliacao-item {
+    width: calc(25% - 20px); /* Para quatro avaliações lado a lado com margens */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.estrelas {
+    color: #ffcc00; /* Cor das estrelas amarelas */
+    margin-top: 10px;
+}
